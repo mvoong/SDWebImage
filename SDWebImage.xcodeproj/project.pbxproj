@@ -279,7 +279,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00733A4C1BC487C000A5A117 /* WebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00733A4C1BC487C000A5A117 /* WebImageTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebImageTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2CADFF1AB4BB5300B6BC39 /* WebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2CAE021AB4BB5400B6BC39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A2CAE031AB4BB5400B6BC39 /* WebImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebImage.h; sourceTree = "<group>"; };
@@ -483,7 +483,7 @@
 				531041E0157EAFA400BBABC3 /* libSDWebImage+MKAnnotation.a */,
 				537D95C117ECC1FE0097C263 /* libSDWebImage+WebP.a */,
 				4A2CADFF1AB4BB5300B6BC39 /* WebImage.framework */,
-				00733A4C1BC487C000A5A117 /* WebImage.framework */,
+				00733A4C1BC487C000A5A117 /* WebImageTV.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -865,7 +865,7 @@
 			);
 			name = "WebImage tvOS";
 			productName = "WebImage tvOS";
-			productReference = 00733A4C1BC487C000A5A117 /* WebImage.framework */;
+			productReference = 00733A4C1BC487C000A5A117 /* WebImageTV.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4A2CADFE1AB4BB5300B6BC39 /* WebImage */ = {
@@ -1242,7 +1242,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dailymotion.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = WebImage;
+				PRODUCT_NAME = WebImageTV;
 				PUBLIC_HEADERS_FOLDER_PATH = WebImage.framework/Headers;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -1289,7 +1289,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dailymotion.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = WebImage;
+				PRODUCT_NAME = WebImageTV;
 				PUBLIC_HEADERS_FOLDER_PATH = WebImage.framework/Headers;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
